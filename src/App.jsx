@@ -5,7 +5,9 @@ const App = () => {
     const [name, setName] = useState("");
     const [fullName, setFullName] =  useState();
 
-   
+    const inputEvent = (event) => {
+        setName(event.target.value);
+    };
 
     
 
