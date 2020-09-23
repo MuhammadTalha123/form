@@ -9,7 +9,9 @@ const App = () => {
         setName(event.target.value);
     };
 
-    
+    const onSubmit = () => {
+        setFullName(name);
+    };
 
     return(
         <>
